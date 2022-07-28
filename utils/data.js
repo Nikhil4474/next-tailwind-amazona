@@ -1,8 +1,8 @@
 const data = {
   products: [
     {
-      name: 'Free Shirt',
-      slug: 'free-shirt',
+      name: 'Free Fit Shirt',
+      slug: 'free-Fit-shirt',
       category: 'Shirts',
       image: '/images/shirt1.jpg',
       price: 70,
