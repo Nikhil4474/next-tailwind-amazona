@@ -22,3 +22,21 @@
   4. show product info in second column
   5. show add to cart action on third column
   6. add styles
+7. Handle Add To Cart
+  1. define react context
+  2. define cart items state
+  3. create add to cart action
+  4. add reducer
+  5. create store provider
+  6. handle add to cart button
+8. Create Cart Page
+  1. create cart.js
+  2. use context to get cart items
+  3. list items in cart items
+  4. redirect to cart screen after add to cart
+9. Handle Changing Cart Items
+  1. add select box for quantity
+  2. handle select box change
+10. Save Cart Items
+ 1. install js-cookie package
+ 2. save and retrieve cart items in cookies
