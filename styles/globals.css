@@ -9,6 +9,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #483d3dd0;
+  }
+}
 
 a {
   color: inherit;
@@ -27,12 +36,10 @@ a {
   @apply rounded bg-amber-400 py-2 px-8 shadow outline-none hover:bg-amber-500  active:bg-amber-600;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: #483d3dd0;
-  }
+
+
+input,
+select,
+textarea {
+  @apply rounded border p-2  outline-none ring-indigo-300  focus:ring;
 }

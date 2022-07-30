@@ -1,4 +1,9 @@
 {
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "name": "next-tailwind-Scamazon",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +18,8 @@
     "js-cookie": "^3.0.1",
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
