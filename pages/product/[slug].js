@@ -71,7 +71,7 @@ export default function ProductScreen() {
               className="primary-button w-full"
               onClick={addToCartHandler}
             >
-              Add to cart
+              Add to carts
             </button>
           </div>
         </div>
