@@ -9,10 +9,18 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #483d3dd0;
+  }
+}
 
 a {
-  color: inherit;
-  text-decoration: none;
+  @apply text-orange-600 hover:text-orange-800;
 }
 
 * {
@@ -24,15 +32,19 @@ a {
 }
 
 .primary-button {
-  @apply rounded bg-amber-400 py-2 px-8 shadow outline-none hover:bg-amber-500  active:bg-amber-600;
+  @apply rounded bg-amber-500 py-2 px-8 shadow outline-none hover:bg-amber-600  active:bg-amber-700;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: #483d3dd0;
-  }
+.default-button {
+  @apply rounded bg-gray-100 py-2  px-4 text-black shadow outline-none hover:bg-gray-200  active:bg-gray-300;
+}
+
+input,
+select,
+textarea {
+  @apply rounded border p-2  outline-none ring-indigo-300  focus:ring;
+}
+
+.dropdown-link {
+  @apply flex p-2 hover:bg-gray-200;
 }

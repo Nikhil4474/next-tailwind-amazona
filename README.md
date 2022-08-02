@@ -40,3 +40,31 @@
 10. Save Cart Items
  1. install js-cookie package
  2. save and retrieve cart items in cookies
+11. Create login Form
+  1. install react hook form
+  2. create input boxes
+  3. add login button
+12. Connect To MongoDB
+  1. install mongoose
+  2. install mongodb or use mongodb atlas
+  3. save connect url in .env file
+  4. create db utils file
+  5. create sample users
+13. Create login API
+  1. Install next-auth
+  2. create nextauth.js
+  3. implement signin
+  4. use signin in long form
+14. Add User Menu
+  1. check user authentication
+  2. install headlessui
+  3. show user menu
+15. Create Shipping Screen
+  1. display address field
+  2. save address in context
+16. Create Payment Method Screen
+  1. display payment methods
+  2. save payment method in context
+17. Seed Sample Products
+  1. insert sample products to mongodb
+  2. load products from db in home and product screen
